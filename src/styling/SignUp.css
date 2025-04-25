@@ -1,0 +1,68 @@
+.SignUp{
+    background-color:whitesmoke;
+    height: 680px;
+    width: 370px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.input{
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    width: 320px;
+    border-color: purple;
+    border-width: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition:  0.3s ease-in-out;
+}
+
+.agency{
+    display: grid;
+    position: relative;
+    justify-content: center;
+}
+.PopX{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+input:hover{
+    background-color: rgb(197, 148, 197);
+}
+.SignUpContainer{
+    margin-top: 10px;
+    border: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.label{
+    margin-left: 20px;
+    color:rgb(65, 17, 17);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    position: relative;
+    top: 70px;
+    display: grid;
+    justify-content:center ;
+
+}
+
+
+.createAccount {
+    width: 330px;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(133, 27, 209);
+    color: white;
+
+}
+.createAccount:hover{
+    background-color: #7943a4;
+}

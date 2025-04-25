@@ -1,0 +1,60 @@
+.Landing{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.landingPage{
+    background-color:whitesmoke;
+    border-color: black;
+    height: 680px;
+    width: 370px;
+    border-radius: 20px;
+    justify-content:center ;
+    padding: 10px;
+}
+
+.createAcc{
+    padding: 15px;
+    width: 330px;
+    border-radius: 5px;
+    background-color: rgb(133, 27, 209);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.registered{
+    margin-top: 10px;
+    padding: 15px;
+    width: 330px;
+    border-radius: 5px;
+    background-color:#DDA0DD;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.registered:hover{
+    background-color: #6f5188;
+}
+.createAcc:hover{
+    background-color: #8f59ba;
+}
+
+.buttons{
+display: grid;
+align-items: center;
+justify-content: center;
+}
+.welcome{
+position: relative;
+top: 450px;
+display: grid;
+margin-left: 10px;
+justify-content:left ;
+}
+.welcomeText{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
